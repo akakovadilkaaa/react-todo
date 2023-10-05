@@ -7,9 +7,9 @@ function App() {
       <h1>Todo List</h1>
       <ul>
         {todoList.map((todo,i)=>{
-          return <div className='todo' style={{backgroundColor:'yellow',height:'40px',marginBottom:'10px'}}>
+          return <li className='todo' style={{backgroundColor:'yellow',height:'40px',marginBottom:'10px'}}>
             <h3>{todo.title}</h3>
-          </div>
+          </li>
         })}
       </ul>
     </div>
